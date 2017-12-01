@@ -7,6 +7,11 @@ import javax.jws.WebService;
 import it.unipv.corso.model.Person;
 import it.unipv.corso.service.PersonRepository;
 
+/**
+ * A web service to be used for SoapUI stress
+ * @author thimo
+ *
+ */
 @WebService
 public class InsertPerson {
 
